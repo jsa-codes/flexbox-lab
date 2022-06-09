@@ -7,9 +7,10 @@
 /* PARENT CONTAINER -- Background is Antique White */
 .parent__flexContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     background-color: antiquewhite;
     padding: 10px;
     margin: 10px;
@@ -20,6 +21,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
     background-color: darkgoldenrod;
     padding: 10px;
     margin: 50px;
